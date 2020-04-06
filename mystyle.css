@@ -1,0 +1,117 @@
+#price{
+    color: rgb(134, 11, 2);
+
+}
+
+#desc{
+    color: crimson;
+}
+#detail:hover{
+color: rgba(177, 2, 2, 0.959);
+font-family:Ubuntu;
+padding: 10px;
+}
+.nav{
+    float: left;
+    width: 15%;
+    text-align: center;
+  
+   
+}
+.maincenter{
+    width: 55%;
+    margin: auto;
+    background-image:url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX23025384.jpg);
+    border-radius: 25px;
+    float: left;
+    padding: 0 20px;
+  
+}
+.right{
+    float: right;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+
+}
+.clear{
+    clear: both;
+}
+
+@media only screen and (max-width:700px){
+    .nav, .maincenter, .right{
+        width:100%;
+    }
+}
+
+h2,h3{
+    font-size: 1.5vw;
+}
+div img{
+    max-width: 100%;
+    height: auto;
+}
+
+#ref1{
+    color: deeppink;
+}
+#ref2{
+    color: rgb(235, 99, 8);
+}
+footer{
+    border-top: solid;
+    border-bottom: solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   text-align: center;
+}
+ #title{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color:#0b2027;
+}
+
+.center{
+    text-align: center;
+
+    border-bottom: solid;
+    padding-bottom: 2%;
+}
+body{
+    background-color: rgba(223, 70, 70, 0.2);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+   
+    
+}
+
+
+li a{
+    display: block;
+    color: #000;
+    padding: 14px 20px;
+    text-align: center;
+    
+}
+
+li a.active{
+    background-color: #4caf50;
+    color: white;
+}
+
+li a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+
+
+
+section div{
+    text-align: center;
+}
